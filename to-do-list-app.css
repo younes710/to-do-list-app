@@ -146,6 +146,31 @@ p {
 }
 
 .add-work {
+    background-color: rgb(71, 135, 245);
+    color: #ffffff;
+}
+
+.add-personal {
+    background-color: aqua;
+    color: #ffffff;
+}
+
+.add-shopping {
+    background-color: rgb(201, 6, 201);
+    color: #ffffff;
+}
+
+.add-health {
+    background-color: rgb(236, 41, 100);
+    color: #ffffff;
+}
+
+.add-other {
+    background-color: rgb(88, 60, 173);
+    color: #ffffff;
+}
+
+/* .add-work {
     color: #ffffff;
     border-radius: 5px;
     background-color: rgb(71, 135, 245);
@@ -178,7 +203,7 @@ p {
     border-radius: 5px;
     background-color: rgb(88, 60, 173);
     border-color: rgb(88, 60, 173);
-}
+} */
 
 .buttoms {
     padding: 100px;
@@ -193,10 +218,6 @@ textarea {
 textarea::placeholder {
     font-size: 16px;
     color: rgb(171, 170, 170);
-}
-
-input[type="radio"] {
-    appearance: none;
 }
 
 label {
